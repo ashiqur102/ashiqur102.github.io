@@ -1,0 +1,40 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{  
+	margin: 0;
+	padding: 0;
+	background-size: cover; 
+	background-color: #5F9EA0;
+	background-position: center;
+}
+
+html,body{height: 100%;}
+
+.division
+{
+	text-align: center;
+	background:#122b3e;
+	margin: 0px;
+}
+/*Main menu Borde and text color*/
+.main-menu >li
+{
+	display: inline-block;
+	padding: 10px 0px;
+	margin-left: 10px;
+	border: 1px solid white;
+	width:150px;
+	color: white;
+	font-size: 12px;
+	transition: .4s;
+}
+/*hover Main menu*/
+.main-menu:hover
+{
+	display: inline-block;
+}
+
+
