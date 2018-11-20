@@ -13,6 +13,30 @@ body
 
 html,body{height: 100%;}
 
+.division
+{
+	text-align: center;
+	background:#122b3e;
+	margin: 0px;
+}
+/*Main menu Border and text color*/
+.main-menu >li
+{
+	display: inline-block;
+	padding: 10px 0px;
+	margin-left: 10px;
+	border: 1px solid white;
+	width:150px;
+	color: white;
+	font-size: 12px;
+	transition: .4s;
+}
+/*hover Main menu*/
+.main-menu:hover
+{
+	display: inline-block;
+}
+
 .init
 {
 	background-image: url(images/pic.JPG);
